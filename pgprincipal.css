@@ -1,0 +1,197 @@
+@charset "utf=8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header{
+    padding: 5px;
+    max-width: 760px;
+    margin: auto;
+    box-sizing: border-box;
+    background: linear-gradient(to right, white, #1d1d1d , white );
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+}
+
+
+main{
+    background-color: #1d1d1d;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#vS{
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#nome-dos-times{
+    max-width: 760px;
+}
+
+#timeVerm{
+    color: red;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+#timeVerd{
+    color: green;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+}
+
+div#placar{
+    padding: 10px;
+    display: flex;
+    max-width: 760px;
+    flex-direction: row;
+    font-size: 35px;
+    color: white;
+    justify-content: space-around;
+}
+
+div#placar-vermelho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+div#placar-verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+div#empate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+#t-partidas{
+    position: relative;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    top: -20px;
+    left: 335px;
+}
+
+#artilharia-racha{
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    font-weight: bolder;
+    background: linear-gradient(to right, white, #1d1d1d , white );
+}
+
+
+div#artilharia{
+    padding: 20px;
+    max-width: 760px;
+    margin: auto;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.jogador{
+    border: 1px solid lightblue;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+}
+
+.foto-jogador{
+    position: relative;
+    left: 0px;
+}
+
+.name-player{
+    position: relative;
+    top: -130px;
+    left: 140px;
+    font-weight: bolder;
+}
+
+
+div#mostrarTodos{
+    margin: auto;
+    max-width: 760px;
+    display: flex;
+    justify-content: right;
+}
+
+div#botao-MostrarTodos{
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 3px;
+    text-align: center;
+    background-color:#1d1d1d;
+    width: 100px;
+}
+
+div#botao-MostrarTodos:hover{
+    cursor:pointer;
+
+}
+
+div#artilharia2{
+    padding: 0px 20px 20px 20px;
+    max-width: 760px;
+    margin: auto;
+    background-color: #1d1d1d ;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div#ocultar{
+    margin: auto;
+    max-width: 760px;
+    display: none;
+    justify-content: right;
+}
+
+div#botao-ocultar{
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 3px;
+    text-align: center;
+    background-color: #1d1d1d;
+    width: 100px;
+}
+
+div#botao-ocultar{
+    cursor:pointer;
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pgprincipal.css" media="screen
+    and (orientation:landscape)">
+    <title>rachão</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="bebas-neue-regular">Rachão 2024 ⚽</h1>
+    </header>
+    <main>
+        <div id="nome-dos-times">
+            <p class="bebas-neue-regular" id="timeVerm">Colete vermelho</p>
+            <p class="bebas-neue-regular" id="timeVerd">Colete verde</p>
+        </div>
+        <img src="imagens/verdeVSvermelho.png" alt="" id="vS">
+        <div id="t-partidas" class="bebas-neue-regular">
+            Total de partidas: 28
+        </div>
+
+        <div id="placar">
+            <div id="placar-vermelho">
+                <p class="bebas-neue-regular">10 Vitorias</p>
+            </div>
+  
+            <div id="empate">
+                <p class="bebas-neue-regular">4 empates</p>
+            </div>
+
+            <div id="placar-verde">
+                <p class="bebas-neue-regular">14 Vitorias</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="artilharia-racha">
+        ARTILHARIA DE 2024
+    </div>
+
+    <div id="artilharia">
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Marcone <br> Sitio Tapuio <br> Gols: 19</div>
+        </div>
+        <div class="jogador">          
+             <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+             <div class="name-player">José <br> Quixelo <br> Gols: 11</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Neguinho <br> Quixelo <br> Gols: 10</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">          
+            <div class="name-player">BB <br> Quixelo <br>Gols: 10</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Pedro <br> Mundo Novo <br> Gols: 6</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Fernando <br> Faé <br> Gols: 6</div>
+        </div>
+    </div>
+
+    <div id="mostrarTodos">
+        <div id="botao-MostrarTodos" onclick="mostrarTodos()">
+            <p class="bebas-neue-regular">mostrar todos</p>
+        </div>
+    </div>
+
+    <div id="artilharia2">
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Guilherme <br> Sitio Tapuio <br> Gols: 5</div>
+        </div>
+        <div class="jogador">      
+             <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+             <div class="name-player">Erick <br> Sitio Sitio <br> Gols: 5</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Joalisson <br> Sitio Sitio <br> gols: 5</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">          
+            <div class="name-player">Edson <br> Sitio Tapuio <br> Gols: 3</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Mike <br> Quixelo <br> Gols: 4</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Pedro <br> Cedro <br> Gols: 3</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Fabinho <br> Mundo Novo <br> Gols: 2</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Bruno <br> Faé <br> Gols: 2</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Gabriel <br> Sitio Tapuio <br> Gols: 2</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Menino Novo <br> Pintado <br> Gols: 2</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Arthur <br> Pendente <br> Gols: 2</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Alan <br> Mundo Novo <br> Gols:1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Celino <br> Quixelo <br> gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Daniel Wesley <br> quixelo <br> Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Del <br>Sitio Tapuio <br> Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Diego <br>Sitio Tapuio <br>Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Junior <br>Paus de Leite <br>Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Lenildo <br> Sitio Tapuio <br>Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Pipa <br> altos <br>Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Alisson <br> Vila do Antonico <br>Gols: 1</div>
+        </div>
+        <div class="jogador">
+            <img src="imagens/avatar-removebg-preview.png" alt="avatar-de-pessoa" class="foto-jogador">
+            <div class="name-player">Josimar <br>Pendente <br>Gols: 1</div>
+        </div>
+    </div>
+
+    <div id="ocultar">
+        <div id="botao-ocultar" onclick="ocultar()">
+            <p class="bebas-neue-regular"> Mostrar Menos</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
